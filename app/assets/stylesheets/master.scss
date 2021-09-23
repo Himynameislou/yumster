@@ -1,6 +1,7 @@
 @import "bootstrap";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Yaldevi&display=swap');
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
@@ -10,18 +11,19 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     background: image_url('spiration-light.png');
-    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Yaldevi', sans-serif;
 }
 
 .navbar {
     background: image_url('beanstalk-dark.png');
     box-shadow: 0px 1px 3px #2a2a2a;
+    height: 45px;
 }
 
 .navbar-inverse .navbar-brand  {
-    color: blueviolet;
-    font-family: 'Grechen Fuemen', cursive;
-    font-size: 30px;
+    color: #FF2D55;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     font-weight: 800;
     letter-spacing: 1px;
 }
