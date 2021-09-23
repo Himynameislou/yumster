@@ -61,3 +61,5 @@ gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
 gem 'bootstrap', '~> 5.1.0'
 
 gem 'jquery-rails'
+
+gem 'will_paginate', '> 3.0'

@@ -3,10 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Yaldevi&display=swap');
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     // color: blue;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #FF2D55;
 }
 
 body {
@@ -38,4 +44,56 @@ body {
     margin-top: 10px;
     margin-bottom: 15px;
     padding: 20px;
+
+  }
+
+.pagination-location {
+position: absolute;
+margin-top: 10px;
+margin-bottom: 15px;
+padding: 20px;
+}
+
+.pagination {
+    background: image_url('spiration-light.png');
+    cursor: default;
+    height: 35px;
+    a, span, em {
+      padding: 0.2em 0.5em;
+      display: block;
+      float: left;
+      margin-right: 1px;
+    }
+    .disabled {
+      display: none;
+    }
+    .current {
+      font-style: normal;
+      font-weight: bold;
+      background: #2DFFD7;
+      color: white;
+      border: 1px solid #2DFFD7;
+    }
+    a {
+      text-decoration: none;
+      color: #FF2D55;
+      border: 1px solid #FF93A8;
+      &:hover, &:focus {
+        color: #000033;
+        border-color: #000033;
+      }
+    }
+    .page_info {
+      background: #2e6ab1;
+      color: white;
+      padding: 0.4em 0.6em;
+      width: 22em;
+      margin-bottom: 0.3em;
+      text-align: center;
+      b {
+        color: #000033;
+        background: #2e6ab1 + 60;
+        padding: 0.1em 0.25em;
+      }
+    }
   }
