@@ -1,14 +1,19 @@
-
-<%@places.each do |place| %>
-    <div class="frost-box col-10 offset-1">
-        <h1> <%= place.name %> </h1>
-        <i> <%= place.address %> </i> <br/> <br/>
-        <p> <%= place.description %> </p><br/>
+<div class="container d-flex justify-content-center">
+    <div class="row justify-content-center">
+        <%@places.each do |place| %>
+            <div class="frost-box col-10 offset-1">
+                <h1> <%= place.name %> </h1>
+                <i> <%= place.address %> </i> <br/> <br/>
+                <p> <%= place.description %> </p><br/>
+            </div>
+        <% end %>
     </div>
-<% end %>
+</div>
 
-<div class="container col-6 offset-6">
-    <div class="pagination-location">
-        <%= will_paginate @places %>
+<div class="container d-flex justify-content-center">
+    <div class="row">
+        <div class="pagination-location">
+            <%= will_paginate @places %>
+        </div>
     </div>
 </div>
